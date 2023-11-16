@@ -123,7 +123,7 @@ html{
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(100px);
+  filter: blur(190px);
 }
 
 .white__gradient {

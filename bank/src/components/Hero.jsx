@@ -15,13 +15,13 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] mr-24'>
             The Next <br className='sm:block hidden' />{" "}
             <span className='text-gradient'>Generation
             </span>
           </h1>
 
-          <div className='ss:flex hidden md:mr-4 mr-0'>
+          <div className='ss:flex hidden md:mr-4 mr-0 '>
             <GetStarted />
           </div>
         </div>
@@ -32,12 +32,14 @@ const Hero = () => {
       <div>
         <img src={robot} className='w-[100%] h-[100%] relative z-[5]' />
 
-        <div className='absolute z-[0] w-[20%] h-[35%] top-20 pink__gradient rounded-full blu' />
+        <div className='absolute z-[0] w-[20%] h-[27%] top-20 pink__gradient rounded-full' />
 
-        <div className='absolute z-[1] w-[70%] h-[80%] bottom-40 top-20 rounded-full white__gradient' />
 
-        <div className='absolute z-[0] w-[50%] h-[50%] bottom-20 right-20 rounded-full blue__gradient' />
+        <div className='absolute z-[0] w-[50%] h-[35%] bottom-20 right-20 rounded-full blue__gradient' />
         
+      </div>
+      <div className={`ss:hidden ${styles.flexCenter}`}>
+        <GetStarted/>
       </div>
     </section>
   )
