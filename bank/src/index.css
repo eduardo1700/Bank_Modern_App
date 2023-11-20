@@ -126,7 +126,8 @@ html{
   filter: blur(190px);
 }
 
+
 .white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(40px);
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(100px);
 }
