@@ -131,3 +131,30 @@ html{
   background: rgba(255, 255, 255, 0.2);
   filter: blur(100px);
 }
+
+.hover-animation {
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transform: scale(1);
+  /* Set the initial scale */
+}
+
+
+/* Add a subtle animation to the default state */
+@keyframes subtleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hover-animation:not(:hover) {
+  animation: subtleAnimation 10s infinite;
+  
+}

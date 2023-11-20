@@ -30,7 +30,9 @@ const Hero = () => {
 
       </div>
       <div>
-        <img src={robot} className='w-[100%] h-[100%] relative z-[5]' />
+        <img src={robot} className={`w-[100%] h-[100%] relative z-[5] hover-animation`} />
+  
+
 
         <div className='absolute z-[0] w-[20%] h-[27%] top-20 pink__gradient rounded-full' />
 
